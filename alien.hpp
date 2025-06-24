@@ -10,6 +10,10 @@ namespace game {
         public:
 
         private:
+            int spaceshipSize;
+            int row1Size;
+            int row2Size;
+            int row3Size;
     };
 }
 
