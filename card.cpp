@@ -7,8 +7,8 @@ namespace game {
     Card::Rank Card::getRank() const {
         return rank;
     }
+
     Card::Suit Card::getSuit() const {
         return suit;
     }
-
 }
