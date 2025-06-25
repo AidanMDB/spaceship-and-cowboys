@@ -7,14 +7,6 @@ using namespace game;
 
 int main() {
 
-/*     Deck new_deck;
-
-    for (int i = 0; i < 52; i++) {
-        auto card = new_deck.deal();
-        std::cout << rankToString(card->getRank()) << "\t" << suitToString(card->getSuit()) << "\n";
-    } */
-
-
     Deck shuffled_deck;
     shuffled_deck.shuffle();
 
